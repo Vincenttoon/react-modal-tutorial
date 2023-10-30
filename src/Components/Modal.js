@@ -8,8 +8,14 @@ function Modal() {
             <div className='title'>
                 <h1>Are you sure you want to continue</h1>
             </div>
-            <div className='body'></div>
-            <div className='footer'></div>
+            <div className='body'>
+                <p>The next page is awesome! You should move forward.</p>
+            </div>
+            <div className='footer'>
+                <button>Cancel</button>
+                <button>Continue</button>
+
+            </div>
         </div>
     </div>
   )
