@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1> Hey, click on the button to open the modal.</h1>
       <button className='openModalBtn' onClick={() => {setOpenModal(true)}}>Open</button>
-      {openModal && <Modal />}
+      {openModal && <Modal closeModal={setOpenModal} />}
     </div>
   );
 }
